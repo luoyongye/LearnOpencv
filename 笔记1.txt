@@ -1,0 +1,8 @@
+opencv学习笔记
+
+！1.Mat 定义一个图片，里面包括图片数据和矩阵
+！2.imread 读取图片（“图片名称”，参数有：-1、0、1、2、4），0是灰度，2和4真实图像
+！3.namedWindow（“窗口名称”），用于创建一个窗口
+！4.imshow（“窗口名称”，Mat），在窗口中显示Mat那个图片。
+! 5.IplImage* cvCreateImage( CvSize size, int depth, int channels ); 创建首地址并分配存储空间
+
